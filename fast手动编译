@@ -1,0 +1,38 @@
+0, 1, 2, 3, 6, 9, 12
+
+
+chunk_size = 2 // 假设64B放两个key
+
+0, 1
+2, 3
+6, 9
+12
+
+leaf_layer = [{0, 1}, {2, 3}, {6, 9}, {12,}]
+
+prev_layer = leaf_layer
+step_size = 4
+
+idx = 0
+last_key = prev_layer[idx + (step_size/2) - 1] // 1
+
+keys 
+  [[2, 3]]
+indexes
+  [1,]
+
+idx = 4 // 结束
+[{[2,3],1}, ]
+
+current_top_len 为 1, 小于4, ...
+
+
+
+
+
+
+
+
+
+
+                           
