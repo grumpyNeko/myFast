@@ -1,6 +1,7 @@
 package myFast
 
 import (
+	_ "github.com/grumpyNeko/myFuzz"
 	"math/rand"
 	"testing"
 )
